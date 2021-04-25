@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\AutoIzquierda.cs" />
     <Compile Include="Assets\Scripts\ObjectHit.cs" />
     <Compile Include="Assets\Scripts\Caera.cs" />
+    <Compile Include="Assets\Scripts\Rotable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
