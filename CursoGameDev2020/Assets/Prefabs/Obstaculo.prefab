@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5631231462315476255}
   - component: {fileID: 5631231462315476320}
   - component: {fileID: 5631231462315476251}
+  - component: {fileID: 463993285}
   m_Layer: 0
   m_Name: Obstaculo
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5631231462315476321}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.4298625, y: 4.22009, z: -0.84140825}
   m_LocalScale: {x: 2, y: 0.5, z: 2}
   m_Children: []
@@ -109,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b18a19030820c904fabad086641e4b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tiempoAntesDeCaida: 3
 --- !u!54 &5631231462315476251
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -117,7 +119,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5631231462315476321}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
@@ -125,3 +127,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &463993285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5631231462315476321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e30e816e9effe7c47a0e2187fc5b9346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroDeColisiones: 0
+  marcador: {fileID: 0}
