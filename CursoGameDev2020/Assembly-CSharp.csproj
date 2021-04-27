@@ -59,8 +59,9 @@
     <Compile Include="Assets\Scripts\JuegoDeArrastrar\AutoIzquierda.cs" />
     <Compile Include="Assets\Scripts\pruebasDeControles\PlayerController.cs" />
     <Compile Include="Assets\Scripts\JuegoDeArrastrar\Rotable.cs" />
-    <Compile Include="Assets\Scripts\JuegoDeArrastrar\ObjectHit.cs" />
     <Compile Include="Assets\Scripts\JuegoDeArrastrar\Caera.cs" />
+    <Compile Include="Assets\Scripts\JuegoDeArrastrar\ObjectHit.cs" />
+    <Compile Include="Assets\Scripts\pruebasDeControles\PlayerControllerGiro.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -678,14 +679,14 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
